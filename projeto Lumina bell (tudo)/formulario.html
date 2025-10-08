@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sirius Concorde</title>
+    <link rel="stylesheet" href="styleform.css">
+</head>
+
+<body>
+    <header>
+        <h1>Formulário de Solicitação</h1>
+    </header>
+    <main>
+        <form>
+            <div class="caixa1">
+                <p><label class="todos1">Destino:</label>
+                    <input type="text" name="destino" required>
+                </p>
+
+                <p><label class="todos1">Data de Retirada:</label>
+                    <input type="date" name="retirada" required>
+                </p>
+
+                <p><label class="todos1">Data de Devolução:</label>
+                    <input type="date" name="devolucao" required>
+                </p>
+
+                <label class="todos1">Tipo de Carro:</label>
+                <select name="tipo">
+                    <option>SUV</option>
+                    <option>Van</option>
+                    <option>Chevrolet Onix</option>>
+                    <option>Renault Kwid</option>
+                    <option>Renault Sandero</option>
+                    <option>Outro Modelo</option>
+                </select>
+                <p class="paragrafo">Solicitando com 2 meses de antecedência, conseguimos disponibilizar outro modelo
+                </p>
+                <p><label class="todos1">Seu nome:</label>
+                    <input type="text" name="nome" required>
+                </p>
+
+                <p class="todos1">Seu E-mail:</label>
+                    <input type="email" name="email" required>
+                </p>
+
+            </div>
+
+            <h3 class="todos1">Personalize sua viagem com adicionais:</h3>
+
+            <p><input type="checkbox" name="bebe" id="bebe">
+                <label class="todos1" for="bebe">🚼 Cadeirinha de bebê</label>
+            </p>
+
+            <p><input type="checkbox" name="gps" id="gps">
+                <label class="todos1" for="gps">🗺️ GPS incluso</label>
+            </p>
+
+            <p><input type="checkbox" name="wi-fi" id="wi-fi">
+                <label class="todos1" for="wi-fi">📶 Wi-Fi portátil</label>
+            </p>
+
+            <p><input type="checkbox" name="seguro" id="seguro">
+                <label class="todos1" for="seguro">🛡️ Seguro adicional</label>
+            </p>
+
+            <p><input type="checkbox" name="motorista" id="motorista">
+                <label class="todos1" for="motorista">👨‍✈️ Opção com motorista</label>
+            </p>
+            <hr>
+
+            <a href="https://api.whatsapp.com/send/?phone=5511914474555&text=Ol%C3%A1%2C+bom+dia.+Gostaria+de+solicitar+a+cota%C3%A7%C3%A3o+da+minha+viagem.+INFORMA%C3%87%C3%95ES+DA+VIAGEM%3A+Destino%3A+Minas+Gerais.+Data+de+Retirada%3A+20%2F10%2F2025.+Data+de+Devolu%C3%A7%C3%A3o%3A+30%2F10%2F2025.+Carro%3A+Renault+Sandero.+Nome%3A+Rafaela.+E-mail%3A+rafaela%40gmail.com+Viagem+Personalizada%3A+GPS%2C+Wi-Fi+Port%C3%A1til+e+Seguro+Adicional.&type=phone_number&app_absent=0" target="_blank" class="botão">Solicitar Cotação</a>
+        </form>
+
+
+    </main>
+
+</body>
+
+</html>

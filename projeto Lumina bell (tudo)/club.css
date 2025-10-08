@@ -1,0 +1,238 @@
+* {
+    margin: 0%; /* tirou a margem */
+    padding: 0%; /* tirou o espaço interno */
+    box-sizing: border-box;
+}
+body {
+   margin: 10;
+   font-family: Georgia, 'Times New Roman', Times, serif;
+   background-color: #0a0a31;
+   color: white;
+
+   
+ }
+
+ header {
+   background-color: #252568;
+   padding: 15px 30px;
+   display: inline-block;
+   width: 100%;
+   border-radius: 14px;
+ }
+
+ .logo {
+   font-size: 20px;
+   font-weight: bold;
+   display: inline-block;
+   margin-right: 40px;
+ }
+
+ nav a {
+   display: inline-block;
+   margin: 0 15px;
+   padding: 8px 12px;
+   color: white;
+   text-decoration: none;
+   border-radius: 6px;
+   font-size: 14px;
+   font-weight: bold;
+ }
+
+ nav a:hover {
+   background-color: #6ea8fe;
+   color: #000;
+ }
+
+ .btn {
+   background-color: #0b0524;
+   padding: 8px 15px;
+   border-radius: 6px;
+   font-weight: bold;
+   margin-left: 20px;
+ }
+
+ .btn:hover {
+   background-color: #9b7bff;
+   color: white;
+ }
+.apresentação {
+   border-radius: 40px;
+   width: 900px;
+   height: 290px;
+   margin-left: 220px;
+   margin-right: 900px;
+   background-color: #8e5ebf;
+   background-color: #8e5ebf;
+   font-family: "Jomhuria", serif;
+   font-weight: 190;
+   font-style: normal;
+   font-size: 150%;
+   padding: 0px;
+  border: 3px solid #000000;
+   
+}
+.apresentação h1{
+    text-align: center;
+}
+.apresentação button{
+    width:20%;
+  height:50px ;
+  background-color: #093c80;
+  border: none;
+  border-radius: 30px;
+  color: #f8f8f8;
+  font-weight: 600px;
+  box-shadow: 0 0 10px rgba(0,0,0,.2);
+  margin-top: 10px;
+  cursor: pointer;
+  font-size:18px;
+  padding: 5px;
+ 
+ 
+ 
+}
+.apresentação p{
+    padding: 12px;
+}
+/* 🌠 Área dos planos */
+.planos {
+  display: flex; /* coloca os blocos lado a lado */
+  justify-content: space-between; /* espaço igual entre eles */
+  align-items: center; /* alinha todos no meio */
+  margin: 50px; /* espaço por fora */
+}
+
+/* Cada caixinha de plano */
+.plano {
+  background-color: #141454; /* fundo azul escuro */
+  border: 3px solid #000000; /* borda preta */
+  border-radius: 15px; /* cantinhos arredondados */
+  width: 22%; /* tamanho de cada caixa */
+  padding: 20px; /* espaço interno */
+  text-align: center; /* centraliza o texto */
+  color: #d9e8ff; /* cor do texto */
+  font-family: Arial, sans-serif; /* tipo de letra */
+}
+
+/* título dentro de cada plano */
+.plano h2 {
+  background-color: #2d4aff;
+  border-radius: 10px;
+  padding: 8px;
+  font-size: 20px;
+}
+
+/* textos dentro das caixinhas */
+.plano p {
+  font-size: 15px;
+  margin: 10px 0;
+}
+
+/* preço do plano */
+.valor {
+  font-size: 22px;
+  font-weight: bold;
+  margin-top: 15px;
+}
+
+/* botão dos planos */
+.botao {
+  background-color: #2d4aff;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  padding: 10px 20px;
+  margin-top: 10px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.botao:hover {
+  background-color: #4c91ff;
+}
+
+/* 🌌 Área dos cartões */
+.cartoes {
+  display: flex; /* coloca os cartões lado a lado */
+  justify-content: space-between;
+  align-items: center;
+  margin: 50px;
+}
+
+/* cada cartão */
+.cartao {
+  background-color: #141454;
+  border: 3px solid #4c91ff;
+  border-radius: 15px;
+  width: 45%;
+  padding: 20px;
+  text-align: center;
+  color: #d9e8ff;
+}
+
+/* imagem dos cartões */
+.cartao img {
+  width: 400px;
+  border-radius: 8px;
+  margin-bottom: 10px;
+}
+
+/* nome do cartão */
+.cartao h2 {
+  font-size: 20px;
+  color: #b6e0ff;
+}
+
+/* subtítulo (tipo Mastercard) */
+.cartao h3 {
+  font-size: 16px;
+  font-style: italic;
+  font-weight: normal;
+  color: #ccccff;
+}
+
+/* caixinhas com as informações dos pontos */
+.info {
+  background-color: #0b0b50;
+  border-radius: 10px;
+  margin: 10px 0;
+  padding: 10px;
+  font-size: 14px;
+}
+
+/* destaque da quantidade de pontos */
+.milhas {
+  color: #4c91ff;
+  font-weight: bold;
+}
+
+/* botão dos cartões */
+.botao {
+  background-color: #4c91ff;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  padding: 10px 25px;
+  margin-top: 10px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.botao:hover {
+  background-color: #6db1ff;
+}
+
+/* 💬 Explicação sobre o USD */
+.explicacao {
+  background-color: #0b0b50;
+  color: #e0ecff;
+  border-radius: 15px;
+  padding: 30px;
+  margin: 50px;
+  font-family: Arial, sans-serif;
+}
+
+.explicacao h2 {
+  color: #b6e0ff;
+  margin-bottom: 15px;
+}

@@ -1,0 +1,107 @@
+    
+    * {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+     font-weight: weight;
+    font-style: normal;
+    }
+    body{
+    display: flex; /* serve para mecher na nossa caixa, colocando o diplay no body */
+    justify-content: center;/* meche no eixo principal horizontal */
+    align-items: center;/* deixa no centro da pagina transversal */
+    min-height: 100vh;/* muda o lugar que quer deixar, altura minima que tem que ter */
+    background-image: url(./imagem/cadastro-plano-de-fundo.jpg);
+    background-size: cover; /* pegar a imagem e adaptar pro tamanho do background */
+    background-position: center;/* imagem ficar centralizada */
+
+}
+.container{ 
+    width: 420px;
+    background-color: transparent ;
+    border: 2px solid rgba(255, 255, 255, .2);
+    border-radius: 10px;
+    color: #fff;
+    padding: 30px 40px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, .2); /* sombra na caixa */
+    backdrop-filter: blur(10px);
+    
+
+}
+.container h1{
+   font-size: 2.1em; /* valoer relacionado ao valor do elemento */
+   text-align: center; 
+
+}
+.container h2{
+    text-align: center;
+    color: #4fa4ea;
+    padding-bottom: 20px;
+    
+}
+.caixa-botao{
+    position: relative; /* muda a posição do elemento de acordo com a minha nessecidade */
+    width: 100%; /* ele ocupa o tamanho da caixa que é o container */
+    height: 50px;/* defina a altura do  elemento */
+    margin: 30px 0;/*  */
+}
+.caixa-botao input{
+    width: 100%;
+    height: 100%;
+    background-color: transparent;
+    border: 2px solid;
+    border-radius: 10px;
+    outline: none;
+    color: #f4eded;
+    padding: 20px 45px 20px 20px;
+}
+.caixa-botao input::placeholder{
+    color:#fff;;
+}
+.caixa-botao i{
+    position: absolute; /* define a posição que é absoluta */
+    right: 20px;
+    top: 65%;
+    font-size: 20px;
+}
+
+
+
+.cadastro2{
+    width: 100%;
+    height: 50px;
+    background-color: #0c1296;
+    color: #fff;
+    border: none;
+    border-radius: 10px;
+    font-weight: 600;
+    box-shadow: 0 0 10px rgba(0, 0, 0, .1);
+    margin-top: 20px;
+    cursor: pointer;
+    font-size:18px ;
+    
+}
+.cadastro2:hover{
+    background-color: transparent;
+    border: 2px solid;
+    color:#ffffff;
+    transition: 0.5s;
+}
+.cadastro{
+    font-size: 14px;
+    text-align: center;
+    margin: 20px 0 15px;
+}
+.cadastro a{
+    text-decoration: none;
+    color: #38a5e9;
+    font-weight: 600;
+}
+.cadastro a:hover{ /* sublinhamento do link */
+     text-decoration: underline;
+}
+
+
+

@@ -1,0 +1,304 @@
+@import url('https://fonts.googleapis.com/css2?family=Merienda:wght@300..900&display=swap');
+body{background-color:#000000;
+    margin: 0;
+    padding: 0;
+   
+
+}
+header {
+   background-color: #000000;
+   padding: 7px 10px;
+   display: inline-block;
+   width: 97%;
+   border-radius: 14px;
+ }
+
+ .logo {
+   font-size: 20px;
+   font-weight: bold;
+   display: inline-block;
+   margin-right: 40px;
+ }
+
+ nav a {
+   display: inline-block;
+   margin: 0 15px;
+   padding: 8px 12px;
+   color: white;
+   text-decoration: none;
+   border-radius: 6px;
+   font-size: 14px;
+   font-weight: bold;
+ }
+
+ nav a:hover {
+   background-color: #6ea8fe;
+   color: #000;
+ }
+
+ .btn {
+   background-color: #0b0524;
+   padding: 8px 15px;
+   border-radius: 6px;
+   font-weight: bold;
+   margin-left: 20px;
+ }
+
+ .btn:hover {
+   background-color: #9b7bff;
+   color: white;
+ }
+.topo{
+     background-image: url(imagens/Milky_Way_Arch.jpg);
+     background-repeat: no-repeat;
+     background-size: cover;
+     height: 500px;
+     background-position: center;
+}
+.conteudo{
+    padding: 20px;
+    color: rgb(255, 255, 255);
+}
+p{
+    color: rgb(255, 255, 255);
+}
+#id1{
+    margin-left: 20px;
+    margin-right: 10px;
+    color: rgb(0, 132, 248);
+    font-size: 20px;
+}
+.logo {
+      font-size: 20px;
+      font-weight: bold;
+      display: inline-block;
+      margin-right: 40px;
+    }
+     nav a {
+      display: inline-block;
+      margin: 15px;
+      padding: 12px;
+      color: white;
+      gap: 30px;
+      border-radius: 6px;
+      font-size: 14px;
+      font-weight: bold;
+    }
+    nav a:hover {
+      background-color: #1a1d52;
+      color: #00a2ff;
+    }
+     .btn {
+      background-color: #01003b;
+      padding: 8px 15px;
+      border-radius: 6px;
+      font-weight: bold;
+      margin-left: 20px;
+    }
+    .btn:hover {
+      background-color: #0a0096;
+      color: white;
+    }
+    span{
+        color: rgb(147, 146, 255);
+        font-size: 2em;
+        margin-left: 20px;
+    }
+    .principal{
+        margin-top: 50px;
+    }
+    
+    .caixa5{
+  background-color: #31378d;
+ border-radius: 12px;
+ width: 385px;
+ height: 550px;
+ margin-right: 40px;
+ padding: 16px;
+ padding-left: 13px;
+ padding-top: 2px;
+ display: inline-block;
+ margin-bottom: 20px;
+
+}
+
+.caixa5:hover{
+    background-color:#121430;
+    color: rgb(5, 131, 241);
+}
+.azul:hover{
+    color: aqua;
+}
+.caixa6{
+  background-color: rgb(49, 55, 141);
+ border-radius: 12px;
+ width: 385px;
+ height: 550px;
+ margin-right: 40px;
+ padding: 16px;
+ padding-left: 13px;
+ padding-top: 2px;
+ display: inline-block;
+
+}
+.caixa6:hover{
+    background-color:#121430;
+    color: rgb(5, 131, 241);}
+.caixa7{
+  background-color: rgb(49, 55, 141);
+ border-radius: 12px;
+ width: 385px;
+ height: 550px;
+ margin-right: 40px;
+ padding: 16px;
+ padding-left: 13px;
+ padding-top: 2px;
+ display: inline-block;
+}
+.caixa7:hover{
+    background-color:#121430;
+    color: rgb(5, 131, 241);
+}
+.caixa8{
+  background-color: rgb(49, 55, 141);
+ border-radius: 12px;
+ width: 385px;
+ height: 550px;
+ margin-right: 40px;
+ padding: 16px;
+ padding-left: 13px;
+ padding-top: 2px;
+ display: inline-block;
+}
+.caixa8:hover{
+    background-color:#121430;
+    color: rgb(5, 131, 241);
+}
+.caixa1{
+  background-color: rgb(49, 55, 141);
+ border-radius: 12px;
+ width: 385px;
+ height: 550px;
+ margin-right: 40px;
+ padding: 16px;
+ padding-left: 13px;
+ padding-top: 2px;
+ display: inline-block;
+}
+.caixa1:hover{
+    background-color:#121430;
+    color: rgb(5, 131, 241);
+}
+.caixa2{
+  background-color: rgb(49, 55, 141);
+ border-radius: 12px;
+ width: 385px;
+ height: 550px;
+ margin-right: 40px;
+ padding: 16px;
+ padding-left: 13px;
+ padding-top: 2px;
+ display: inline-block;
+ margin-bottom: 20px;
+}
+.caixa2:hover{
+    background-color:#121430;
+    color: rgb(5, 131, 241);
+}
+.caixa3{
+  background-color: rgb(49, 55, 141);
+ border-radius: 12px;
+ width: 385px;
+ height: 550px;
+ margin-right: 40px;
+ padding: 16px;
+ padding-left: 13px;
+ padding-top: 2px;
+ display: inline-block;
+}
+.caixa3:hover{
+    background-color:#121430;
+    color: rgb(5, 131, 241);
+}
+.caixa4{
+  background-color: rgb(49, 55, 141);
+ border-radius: 12px;
+ width: 385px;
+ height: 550px;
+ margin-right: 40px;
+ padding: 16px;
+ padding-left: 13px;
+ padding-top: 2px;
+ display: inline-block;
+}
+.caixa4:hover{
+    background-color:#121430;
+    color: rgb(5, 131, 241);
+}
+.caixa10{
+background-color: #141749;
+color: #000000;
+ border-radius: 12px;
+ width: 1460px;
+ 
+ padding: 16px;
+ padding-left: 1px;
+ padding-top: 50px;
+  margin-right: 40px;
+ display: inline-block;
+}
+
+#hospedar{
+    color: white;
+    margin-top: 90px;
+    font-size: 3em;
+}
+#loucura{
+    font-size: 2em;
+}
+.sirius{
+    font-size:3em;
+    color: white;
+}
+.cris{
+    color: aliceblue;
+    text-align: center;
+}
+.texto{
+    font-size:55px;
+    color: rgb(255, 255, 255);
+   
+}
+
+.laine{
+    color: rgb(255, 255, 255);
+    font-family: "Merienda", cursive;
+  font-optical-sizing: auto;
+  font-weight:100;
+  font-style: normal;
+    
+}
+.tete{
+    color: rgb(255, 255, 255);
+    font-size: 25px;
+    font-family: "Merienda", cursive;
+  font-optical-sizing: auto;
+  font-weight:100;
+  font-style: normal;
+}
+.lista{
+    color: rgb(255, 255, 255);
+    font-size:25px ;
+    font-family: "Merienda", cursive;
+  font-optical-sizing: auto;
+  font-weight:100;
+  font-style: normal;
+}
+.para23{
+    color: #01ffff;
+  font-size:25px;
+ font-family: "Merienda", cursive;
+  font-optical-sizing: auto;
+  font-weight:100;
+  font-style: normal;
+}

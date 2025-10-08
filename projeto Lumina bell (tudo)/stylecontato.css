@@ -1,0 +1,53 @@
+*{
+    margin: 0%; /* tirou a margem */
+    padding: 0%; /* tirou o espaço interno */
+    box-sizing: border-box;
+}
+ body {
+         background-color: #0a0a31;
+      font-family: Arial, sans-serif;
+    }
+
+    h1 {
+      text-align: center;
+      color: #ffffff;
+    }
+
+    form {
+      background-color: #31378d;
+      color: white;
+      width: 400px;
+      margin: 20px auto;
+      padding: 20px;
+      border: 1px solid #071d80;
+    }
+
+    label {
+      display: block;
+      margin-top: 10px;
+      color: #ffffff;
+    }
+     input, textarea, select {
+      width: 100%;
+      padding: 8px;
+      margin-top: 5px;
+      border: 1px solid #ccc;
+    }
+
+    textarea {
+      height: 100px;
+    }
+
+    button {
+      background-color: #4CAF50;
+      color: white;
+      border: none;
+      padding: 10px;
+      margin-top: 10px;
+      cursor: pointer;
+      width: 100%;
+    }
+
+    button:hover {
+      background-color: #45a049;
+    }

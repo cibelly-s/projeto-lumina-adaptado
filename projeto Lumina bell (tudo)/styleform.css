@@ -1,0 +1,45 @@
+body{
+  background-color: #0a0a31;
+}
+.caixa1{
+  display: inline-block;          /* cada label ocupa uma linha */
+  margin-top: 10px;        /* espaço entre os campos */
+}
+
+.caixa1 input,
+.caixa1 select,
+.caixa1 button {
+  display: inline-block;          /* cada input ocupa uma linha */
+  width: 100%;             /* ocupa toda a largura da div */
+  max-width: 400px;        /* largura máxima */
+  padding: 8px;
+  margin-top: 5px;         /* espaço entre o label e o input */
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.paragrafo{
+    font-size: 14px;
+    color: white;
+}
+h1{
+  color: white;
+}
+.botão{
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  display: inline-block;
+  padding: 10px 20px;
+  text-decoration: none;
+  border-radius: 5px;
+  font-weight: 900;
+
+}
+
+.botão{
+  background-color: #45a049;
+}
+.todos1{
+  color: rgb(255, 255, 255);
+}

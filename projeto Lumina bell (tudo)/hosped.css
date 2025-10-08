@@ -1,0 +1,209 @@
+body{
+    background-color: #0a0a31;
+    
+    
+}
+ header {
+   background-color: #252568;
+   padding: 15px 30px;
+   display: inline-block;
+   width: 97%;
+   border-radius: 14px;
+ }
+
+ .logo {
+   font-size: 20px;
+   font-weight: bold;
+   display: inline-block;
+   margin-right: 40px;
+ }
+
+ nav a {
+   display: inline-block;
+   margin: 0 15px;
+   padding: 8px 12px;
+   color: white;
+   text-decoration: none;
+   border-radius: 6px;
+   font-size: 14px;
+   font-weight: bold;
+ }
+
+ nav a:hover {
+   background-color: #6ea8fe;
+   color: #000;
+ }
+
+ .btn {
+   background-color: #0b0524;
+   padding: 8px 15px;
+   border-radius: 6px;
+   font-weight: bold;
+   margin-left: 20px;
+ }
+
+ .btn:hover {
+   background-color: #9b7bff;
+   color: white;
+ }
+h1{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: aliceblue;
+    text-align: center;
+
+}
+.caixa1{
+    background-color: #8e5ebf;
+    border-radius:15px ;
+    width: 900px;
+    height: 360px;
+    margin-left: 280px;
+    margin-top: 50px;
+    margin-bottom:100px ;
+    padding: 16px;
+    
+}
+.botão1{
+    background-color: rgb(183, 95, 217);
+}
+.botão{
+background-color: rgb(124, 171, 246);
+}
+.hoteis{
+
+    font-size:30px ;
+    color: aliceblue;
+}
+.caixa2{
+    background-color: aliceblue;
+    border-radius: 12px;
+    width: 385px;
+    height: 550px;
+    margin-right:40px ;
+    padding:16px ;
+    padding-left: 1px ;
+    padding-top:2px ;
+    display: inline-block;
+    
+    
+}
+.caixa3{
+
+    background-color: aliceblue;
+    border-radius: 12px;
+    width: 385px;
+    height: 550px;
+    margin-right:40px ;
+    padding:16px ;
+    padding-left: 1px ;
+    padding-top:2px ;
+    display: inline-block;
+    
+     
+}
+.caixa4{
+     background-color: aliceblue;
+     border-radius: 12px;
+     width: 385px;
+     height: 550px;
+     margin-right:40px ;
+     padding: 16px;
+     padding-left:1px ;
+     padding-top: 2px;
+     display: inline-block;
+}
+.caixa5{
+    background-color: aliceblue;
+     border-radius: 12px;
+     width: 385px;
+     height: 550px;
+     margin-right:40px ;
+     margin-top: 30px;
+     padding: 16px;
+     padding-left:1px ;
+     padding-top: 2px;
+     display: inline-block;
+}
+
+.caixa6{
+     background-color: aliceblue;
+     border-radius: 12px;
+     width: 385px;
+     height: 550px;
+     margin-right:40px ;
+     margin-top: 30px;
+     padding: 16px;
+     padding-left:1px ;
+     padding-top: 2px;
+    display: inline-block;
+}
+.caixa7{
+    background-color: aliceblue;
+     border-radius: 12px;
+     width: 385px;
+     height: 550px;
+     margin-right:40px ;
+     margin-top: 30px;
+     padding: 16px;
+     padding-left:1px ;
+     padding-top: 2px;
+     display: inline-block;
+
+}
+.caixa8{
+    background-color: aliceblue;
+     border-radius: 12px;
+     width: 385px;
+     height: 550px;
+     margin-right:40px ;
+     margin-top: 30px;
+     padding: 16px;
+     padding-left:1px ;
+     padding-top: 2px;
+     display: inline-block;
+
+}
+.caixa9{
+    background-color: aliceblue;
+     border-radius: 12px;
+     width: 385px;
+     height: 550px;
+     margin-right:40px ;
+     margin-top: 30px;
+     padding: 16px;
+     padding-left:1px ;
+     padding-top: 2px;
+     display: inline-block;
+}
+.caixa10{
+    background-color: aliceblue;
+     border-radius: 12px;
+     width: 385px;
+     height: 550px;
+     margin-right:40px ;
+     margin-top: 30px;
+     padding: 16px;
+     padding-left:1px ;
+     padding-top: 2px;
+     display: inline-block;
+}
+
+/*deixar a borda da imagem arredondada⬇️*/
+.img{ 
+    border-radius:12px ;
+}
+
+.azul{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgb(10, 74, 135);
+     padding-left:25px ;
+}
+.tefe{
+    padding-left:25px ;
+}
+.puma{
+     padding-left:25px ;
+}
+.polar{
+    font-size:30px ;
+}
