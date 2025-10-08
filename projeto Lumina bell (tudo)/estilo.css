@@ -1,0 +1,109 @@
+    
+    * {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+     font-weight: weight;
+    font-style: normal;
+    }
+    body{
+    display: flex; /* serve para mecher na nossa caixa, colocando o diplay no body */
+    justify-content: center;/* meche no eixo principal horizontal */
+    align-items: center;/* deixa no centro da pagina transversal */
+    min-height: 100vh;/* muda o lugar que quer deixar, altura minima que tem que ter */
+    background-image: url(./imagem/plano-de-fundo.png);
+    background-size: cover; /* pegar a imagem e adaptar pro tamanho do background */
+    background-position: center;/* imagem ficar centralizada */
+
+}
+.container{ 
+    width: 420px;
+    background-color: transparent;
+    border: 2px solid rgba(255, 255, 255, .2);
+    border-radius: 10px;
+    color: #fff;
+    padding: 30px 40px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, .2); /* sombra na caixa */
+    
+
+}
+.container h1{
+   font-size: 2.3em; /* valoer relacionado ao valor do elemento */
+   text-align: center; 
+
+}
+.caixa-botao{
+    position: relative; /* muda a posição do elemento de acordo com a minha nessecidade */
+    width: 100%; /* ele ocupa o tamanho da caixa que é o container */
+    height: 50px;/* defina a altura do  elemento */
+    margin: 30px 0;/*  */
+}
+.caixa-botao input{
+    width: 100%;
+    height: 100%;
+    background-color: transparent;
+    border: 2px solid;
+    outline: none;
+    color: #1c1b1b;
+    padding: 20px 45px 20px 20px;
+}
+.caixa-botao input::placeholder{
+    color:#fff;;
+}
+.caixa-botao i{
+    position: absolute; /* define a posição que é absoluta */
+    right: 20px;
+    top: 35%;
+    font-size: 20px;
+}
+.lembrar-senha{
+    display:flex;
+    justify-content: space-between;
+}
+.lembrar-senha label input{
+    accent-color:#8ab6ec;
+    margin-right: 5px;
+
+}
+.lembrar-senha a{
+    text-decoration: none;
+    color: #fff;
+
+}
+.lembrar-senha a:hover{
+    text-decoration: underline;
+
+}
+.login{
+    width: 100%;
+    height: 50px;
+    background-color: #fff;
+    border: none;
+    font-weight: 600;
+    box-shadow: 0 0 10px rgba(0, 0, 0, .1);
+    margin-top: 20px;
+    cursor: pointer;
+    
+}
+.login:hover{
+    background-color: transparent;
+    border: 2px solid;
+    color:#fff;
+    transition: 0.5s;
+}
+.cadastro{
+    font-size: 14px;
+    text-align: center;
+    margin: 20px 0 15px;
+}
+.cadastro a{
+    text-decoration: none;
+    color: #fff;
+    font-weight: 600;
+}
+.cadastro a:hover{ /* sublinhamento do link */
+     text-decoration: underline;
+}
+
